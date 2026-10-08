@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Run for Future 2027｜成為 100 家共同發起人之一</title>
+<meta name="description" content="2027.04.18 第五屆順發×港都公益路跑。聯合公益・運動幸福——一家公司可以做公益，100 家公司可以改變世界。誠邀企業、社團、協會成為 100 家共同發起人。">
+<meta property="og:title" content="Run for Future 2027｜100 家共同發起人招募中">
+<meta property="og:description" content="一家公司可以做公益，100 家公司可以改變世界。">
+<meta property="og:image" content="https://event.bymyway.com/curated/runforfuture/assets/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;800;900&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3EDE2; --paper-2:#EAE2D3; --ink:#16130F; --ink-2:#4A443B; --ink-3:#7A7266;
+  --line:rgba(22,19,15,.16); --signal:#E2461B; --signal-ink:#B8330E; --night:#14110D; --night-2:#1F1A14;
+  --on-night:#F3EDE2; --on-night-2:rgba(243,237,226,.66);
+  --serif:"Noto Serif TC","Songti TC",serif; --sans:"Noto Sans TC","PingFang TC",sans-serif;
+  --num:"Big Shoulders Display","Noto Sans TC",sans-serif;
+  --wrap:1240px; --gut:clamp(20px,4vw,56px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.8;-webkit-font-smoothing:antialiased;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E")}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--signal);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+.eyebrow{font-family:var(--num);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:14px;color:var(--signal-ink);display:flex;gap:12px;align-items:center}
+.eyebrow::before{content:"";width:28px;height:2px;background:currentColor}
+.night .eyebrow{color:var(--signal)}
+h1,h2,h3{font-family:var(--serif);font-weight:900;line-height:1.2;letter-spacing:.01em}
+h2{font-size:clamp(32px,4.4vw,56px);margin:18px 0 24px}
+.lead{font-size:clamp(18px,1.6vw,21px);color:var(--ink-2);max-width:38em}
+.night{background:var(--night);color:var(--on-night)}
+.night .lead{color:var(--on-night-2)}
+section{padding:clamp(80px,11vw,150px) 0;position:relative}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 28px;font-weight:700;font-size:17px;text-decoration:none;border:2px solid var(--ink);border-radius:0;cursor:pointer;font-family:var(--sans);transition:background .15s,color .15s,transform .15s}
+.btn-primary{background:var(--signal);border-color:var(--signal);color:#fff}
+.btn-primary:hover{background:var(--signal-ink);border-color:var(--signal-ink)}
+.btn-ghost{background:transparent;color:inherit;border-color:currentColor}
+.btn-ghost:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn .arr{transition:transform .15s}
+.btn:hover .arr{transform:translateX(4px)}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(243,237,226,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px}
+.brand{font-family:var(--num);font-weight:900;font-size:22px;letter-spacing:.04em;text-decoration:none;display:flex;align-items:baseline;gap:10px}
+.brand small{font-family:var(--sans);font-weight:500;font-size:13px;letter-spacing:.08em;color:var(--ink-3)}
+.nav ul{display:flex;gap:28px;list-style:none;font-size:15px}
+.nav ul a{text-decoration:none;color:var(--ink-2)}
+.nav ul a:hover{color:var(--signal-ink)}
+.nav .btn{min-height:42px;padding:0 18px;font-size:15px}
+@media (max-width:960px){.nav ul{display:none}}
+@media (max-width:560px){.brand small{display:none}.brand{font-size:19px;white-space:nowrap}.nav .btn{padding:0 12px;font-size:14px;white-space:nowrap}.hero .hero-card .big{font-size:88px}.hero .hero-img::after{background:linear-gradient(0deg,rgba(20,17,13,.96) 0%,rgba(20,17,13,.82) 55%,rgba(20,17,13,.35) 100%)}.hero .wrap{padding-top:70px}}
+
+/* hero */
+.hero{padding:0;background:var(--night);color:var(--on-night);overflow:hidden}
+.hero-img{position:absolute;inset:0}
+.hero-img img{width:100%;height:100%;object-fit:cover;object-position:60% 50%}
+.hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,17,13,.92) 0%,rgba(20,17,13,.7) 42%,rgba(20,17,13,.1) 75%),linear-gradient(0deg,rgba(20,17,13,.95) 0%,rgba(20,17,13,0) 40%)}
+.hero .wrap{position:relative;min-height:min(92vh,900px);display:grid;grid-template-columns:1.4fr .6fr;align-items:end;gap:40px;padding-top:110px;padding-bottom:64px}
+.hero-meta{font-family:var(--num);font-weight:800;letter-spacing:.16em;font-size:15px;color:var(--signal);margin-bottom:22px}
+.nw{white-space:nowrap}
+.hero h1{font-size:clamp(30px,5vw,76px);line-height:1.12;letter-spacing:0}
+.hero h1 em{font-style:normal;color:var(--signal)}
+.hero p.sub{margin-top:24px;font-size:clamp(17px,1.5vw,20px);color:var(--on-night-2);max-width:30em}
+.hero .ctas{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+.hero .btn-ghost{color:var(--on-night)}
+.hero .btn-ghost:hover{background:var(--on-night);color:var(--ink);border-color:var(--on-night)}
+.hero-card{justify-self:end;border:1px solid rgba(243,237,226,.28);background:rgba(20,17,13,.55);backdrop-filter:blur(6px);padding:28px 30px;width:100%;max-width:340px}
+.hero-card .big{font-family:var(--num);font-weight:900;font-size:120px;line-height:.85;letter-spacing:-.01em}
+.hero-card .big span{color:var(--signal)}
+.hero-card .cap{font-size:14px;color:var(--on-night-2);margin-top:10px}
+.bar{height:6px;background:rgba(243,237,226,.18);margin-top:18px}
+.bar i{display:block;height:100%;background:var(--signal);width:0;transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+.hero-card dl{margin-top:22px;display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:14px}
+.hero-card dt{color:var(--on-night-2)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero-card{justify-self:start}}
+
+/* ticker */
+.ticker{background:var(--signal);color:#fff;overflow:hidden;white-space:nowrap;padding:14px 0;font-family:var(--num);font-weight:800;font-size:20px;letter-spacing:.12em}
+.ticker div{display:inline-block;animation:tk 38s linear infinite}
+.ticker span{margin:0 28px}
+@keyframes tk{to{transform:translateX(-50%)}}
+
+/* problem */
+.problem .wrap{display:grid;grid-template-columns:5fr 7fr;gap:clamp(40px,7vw,110px)}
+.strike{list-style:none;border-top:2px solid var(--ink)}
+.strike li{display:flex;align-items:baseline;gap:22px;padding:26px 0;border-bottom:1px solid var(--line);font-family:var(--serif);font-weight:700;font-size:clamp(24px,2.8vw,36px)}
+.strike li b{font-family:var(--num);font-weight:800;font-size:16px;color:var(--ink-3);letter-spacing:.1em;min-width:34px}
+.strike li s{text-decoration-color:var(--signal);text-decoration-thickness:3px;color:var(--ink-3)}
+.turn{margin-top:40px;font-family:var(--serif);font-weight:900;font-size:clamp(26px,3vw,40px);line-height:1.35}
+.turn mark{background:linear-gradient(transparent 62%,rgba(226,70,27,.35) 62%);color:inherit}
+@media (max-width:860px){.problem .wrap{grid-template-columns:1fr}}
+
+/* core */
+.core{background:var(--paper-2)}
+.core-head{text-align:center;max-width:820px;margin:0 auto 70px}
+.core-head .eyebrow{justify-content:center}
+.core-head .eyebrow::before{display:none}
+.core-head h2{font-size:clamp(36px,6.4vw,92px);letter-spacing:.04em}
+.core-head h2 span{color:var(--signal)}
+.pillars{display:grid;grid-template-columns:1fr 1fr;border-top:2px solid var(--ink)}
+.pillar{padding:46px clamp(20px,4vw,56px) 10px 0}
+.pillar+.pillar{border-left:1px solid var(--line);padding-left:clamp(20px,4vw,56px)}
+.pillar .k{font-family:var(--num);font-weight:900;font-size:15px;letter-spacing:.14em;color:var(--signal-ink)}
+.pillar h3{font-size:clamp(30px,3.4vw,44px);margin:8px 0 16px}
+.pillar p{color:var(--ink-2);max-width:30em}
+.pillar blockquote{margin-top:22px;padding:18px 0 0;border-top:1px dashed var(--line);font-family:var(--serif);font-size:18px;color:var(--ink)}
+.pillar blockquote cite{display:block;font-style:normal;font-family:var(--sans);font-size:13px;color:var(--ink-3);margin-top:6px}
+.design-line{margin-top:70px;text-align:center;font-family:var(--serif);font-weight:900;font-size:clamp(26px,3.2vw,42px)}
+.design-line s{color:var(--ink-3);text-decoration-color:var(--signal);text-decoration-thickness:3px;font-weight:500}
+@media (max-width:760px){.pillars{grid-template-columns:1fr}.pillar+.pillar{border-left:0;padding-left:0;border-top:1px solid var(--line)}}
+
+/* the wall */
+.wall-head{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;margin-bottom:48px}
+.count{font-family:var(--num);font-weight:900;font-size:clamp(90px,13vw,190px);line-height:.8;text-align:right}
+.count small{font-size:.32em;color:var(--on-night-2);font-weight:500}
+.count span{color:var(--signal)}
+.count-cap{text-align:right;font-size:14px;color:var(--on-night-2);margin-top:12px}
+.grid100{display:grid;grid-template-columns:repeat(20,1fr);gap:6px;list-style:none}
+.grid100 li{aspect-ratio:1}
+.slot{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:var(--num);font-weight:800;font-size:clamp(9px,1vw,14px);letter-spacing:.04em;border:1px solid rgba(243,237,226,.22);background:transparent;color:rgba(243,237,226,.45);cursor:pointer;transition:background .15s,color .15s,border-color .15s;text-decoration:none}
+.slot.on{background:var(--on-night);color:var(--ink);border-color:var(--on-night);cursor:default}
+.slot:not(.on):hover,.slot:not(.on):focus-visible{background:var(--signal);border-color:var(--signal);color:#fff}
+.legend{display:flex;gap:28px;flex-wrap:wrap;margin-top:22px;font-size:14px;color:var(--on-night-2)}
+.legend i{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:8px;border:1px solid rgba(243,237,226,.4)}
+.legend i.f{background:var(--on-night)}
+.wall-foot{margin-top:56px;display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap;border-top:1px solid rgba(243,237,226,.18);padding-top:34px}
+.wall-foot p{font-family:var(--serif);font-size:clamp(20px,2vw,26px);font-weight:700;max-width:28em}
+@media (max-width:760px){.grid100{grid-template-columns:repeat(10,1fr)}.wall-head{grid-template-columns:1fr}.count,.count-cap{text-align:left}}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:7fr 5fr;gap:clamp(40px,6vw,90px);margin-top:56px;align-items:start}
+.reasons{counter-reset:r;list-style:none}
+.reasons li{display:grid;grid-template-columns:90px 1fr;gap:18px;padding:34px 0;border-top:1px solid var(--line)}
+.reasons li:first-child{border-top:2px solid var(--ink)}
+.reasons .n{font-family:var(--num);font-weight:900;font-size:64px;line-height:.9;color:var(--signal)}
+.reasons h3{font-size:26px;margin-bottom:10px}
+.reasons p{color:var(--ink-2)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chips span{font-size:14px;border:1px solid var(--ink);padding:3px 12px}
+.why-fig{position:sticky;top:96px}
+.why-fig figcaption{font-size:14px;color:var(--ink-3);margin-top:12px;border-left:2px solid var(--signal);padding-left:12px}
+.mech{margin-top:28px;background:var(--ink);color:var(--on-night);padding:26px}
+.mech h4{font-family:var(--num);letter-spacing:.14em;font-size:15px;color:var(--signal);font-weight:800}
+.mech ol{list-style:none;margin-top:12px;font-size:15px}
+.mech li{padding:8px 0;border-bottom:1px solid rgba(243,237,226,.14);display:flex;gap:12px}
+.mech li b{font-family:var(--num);color:var(--signal)}
+@media (max-width:860px){.why-grid{grid-template-columns:1fr}.why-fig{position:static}}
+
+/* now */
+.now{padding:clamp(80px,10vw,130px) 0}
+.now .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,90px);align-items:center}
+.vs{font-family:var(--serif);font-size:clamp(20px,2vw,26px);line-height:1.6}
+.vs .row{display:flex;justify-content:space-between;align-items:baseline;padding:16px 0;border-bottom:1px solid rgba(243,237,226,.18);gap:20px}
+.vs .row span:first-child{color:var(--on-night-2)}
+.vs .row.win{border-bottom:2px solid var(--signal)}
+.vs .row.win span{color:var(--on-night);font-weight:900}
+.vs .row.win span:last-child{color:var(--signal)}
+.now blockquote{font-family:var(--serif);font-weight:900;font-size:clamp(28px,3.4vw,46px);line-height:1.35}
+.now blockquote em{font-style:normal;color:var(--signal)}
+@media (max-width:860px){.now .wrap{grid-template-columns:1fr}}
+
+/* edition */
+.timeline{display:grid;grid-template-columns:repeat(5,1fr);margin-top:56px;border-top:2px solid var(--ink)}
+.timeline div{padding:22px 16px 0 0;position:relative}
+.timeline div::before{content:"";position:absolute;top:-8px;left:0;width:14px;height:14px;background:var(--paper);border:2px solid var(--ink);border-radius:50%}
+.timeline .y{font-family:var(--num);font-weight:900;font-size:clamp(32px,4vw,54px);line-height:1}
+.timeline .t{font-size:14px;color:var(--ink-3)}
+.timeline .cur::before{background:var(--signal);border-color:var(--signal);width:18px;height:18px;top:-10px}
+.timeline .cur .y{color:var(--signal)}
+.timeline .cur .t{color:var(--ink);font-weight:700}
+.goals{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:80px;border:2px solid var(--ink)}
+.goal{padding:34px 30px}
+.goal+.goal{border-left:2px solid var(--ink)}
+.goal .v{font-family:var(--num);font-weight:900;font-size:clamp(64px,8vw,116px);line-height:.9;letter-spacing:-.01em}
+.goal .u{font-family:var(--serif);font-weight:700;font-size:20px;margin-top:10px}
+.goal p{font-size:15px;color:var(--ink-3)}
+.majors{margin-top:80px;display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line)}
+.majors > div{padding:40px 0}
+.majors > div + div{border-left:1px solid var(--line);padding-left:clamp(24px,4vw,60px)}
+.majors .lab{font-family:var(--num);letter-spacing:.14em;font-weight:800;font-size:14px;color:var(--ink-3)}
+.cities{display:flex;flex-wrap:wrap;gap:6px 18px;margin:14px 0 10px;font-family:var(--num);font-weight:800;font-size:clamp(22px,2.4vw,32px);color:var(--ink-3)}
+.majors .to{font-family:var(--serif);font-size:clamp(24px,2.6vw,34px);font-weight:900}
+.future{font-family:var(--num);font-weight:900;font-size:clamp(42px,5.5vw,76px);color:var(--signal);line-height:1;margin:14px 0 10px}
+@media (max-width:760px){.timeline{grid-template-columns:repeat(5,minmax(70px,1fr));overflow-x:auto}.goals{grid-template-columns:1fr}.goal+.goal{border-left:0;border-top:2px solid var(--ink)}.majors{grid-template-columns:1fr}.majors>div+div{border-left:0;padding-left:0;border-top:1px solid var(--line)}}
+
+/* offer */
+.offer{background:var(--paper-2)}
+.offer-top{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.price{border:2px solid var(--ink);background:var(--paper);padding:26px 32px;text-align:center}
+.price .cur{font-family:var(--num);font-weight:800;font-size:18px;letter-spacing:.1em;color:var(--ink-3)}
+.price .amt{font-family:var(--num);font-weight:900;font-size:clamp(72px,8vw,110px);line-height:.9}
+.price .note{font-size:14px;color:var(--ink-2);margin-top:6px}
+.gets{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:56px;background:var(--ink);border:2px solid var(--ink)}
+.get{background:var(--paper);padding:38px clamp(24px,3vw,44px)}
+.get .gn{font-family:var(--num);font-weight:900;font-size:15px;letter-spacing:.14em;color:var(--signal-ink)}
+.get h3{font-size:clamp(24px,2.4vw,30px);margin:8px 0 14px}
+.get p{color:var(--ink-2);font-size:16px}
+.get ul{list-style:none;margin-top:14px;font-size:15px;columns:2;column-gap:20px}
+.get ul li{padding:5px 0 5px 18px;position:relative;break-inside:avoid}
+.get ul li::before{content:"";position:absolute;left:0;top:15px;width:8px;height:2px;background:var(--signal)}
+.get.feature{grid-column:1/-1;display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+.not-sponsor{margin-top:56px;display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.not-sponsor p{font-family:var(--serif);font-weight:900;font-size:clamp(22px,2.4vw,32px)}
+.not-sponsor s{color:var(--ink-3);text-decoration-color:var(--signal);text-decoration-thickness:3px;font-weight:500}
+@media (max-width:860px){.offer-top{grid-template-columns:1fr}.gets{grid-template-columns:1fr}.get.feature{grid-template-columns:1fr}.get ul{columns:1}}
+
+/* podcast */
+.podcast .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,90px);align-items:center}
+.podcast figure{position:relative}
+.podcast figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.ep{position:absolute;left:-1px;bottom:-1px;background:var(--signal);color:#fff;padding:14px 20px;font-family:var(--num);font-weight:900;letter-spacing:.08em;font-size:22px;line-height:1.1}
+.ep small{display:block;font-family:var(--sans);font-weight:500;font-size:13px;letter-spacing:.04em}
+.flow{list-style:none;margin-top:30px;border-top:1px solid rgba(243,237,226,.2)}
+.flow li{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:18px 0;border-bottom:1px solid rgba(243,237,226,.2)}
+.flow b{font-family:var(--num);font-weight:900;font-size:30px;color:var(--signal);line-height:1}
+.flow strong{display:block;font-size:18px}
+.flow span{color:var(--on-night-2);font-size:15px}
+.wave{display:flex;gap:3px;align-items:center;height:36px;margin-top:30px}
+.wave i{display:block;width:4px;background:var(--signal);border-radius:2px;animation:w 1.4s ease-in-out infinite}
+@keyframes w{50%{transform:scaleY(.3)}}
+@media (max-width:860px){.podcast .wrap{grid-template-columns:1fr}}
+
+/* leaders */
+.leaders .wrap{display:grid;grid-template-columns:5fr 7fr;gap:clamp(40px,6vw,90px);align-items:start}
+.lead-card{border-top:2px solid var(--ink);padding-top:26px}
+.lead-card .role{font-family:var(--num);font-weight:800;letter-spacing:.14em;font-size:14px;color:var(--signal-ink)}
+.lead-card .who{font-family:var(--serif);font-weight:900;font-size:clamp(34px,4vw,52px);margin:6px 0}
+.lead-card p{color:var(--ink-2)}
+.quote{font-family:var(--serif);font-weight:700;font-size:clamp(24px,2.6vw,34px);line-height:1.55;position:relative;padding-left:clamp(0px,3vw,40px)}
+.quote::before{content:"「";position:absolute;left:-.5em;top:-.3em;font-size:3em;color:var(--signal);line-height:1}
+.quote footer{font-family:var(--sans);font-size:15px;font-weight:500;color:var(--ink-3);margin-top:20px}
+@media (max-width:860px){.leaders .wrap{grid-template-columns:1fr}.quote::before{position:static;display:block;font-size:2em}}
+
+/* faq */
+.faq .wrap{display:grid;grid-template-columns:4fr 8fr;gap:clamp(40px,6vw,90px)}
+details{border-top:1px solid var(--line)}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:24px 40px 24px 0;font-family:var(--serif);font-weight:700;font-size:21px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:18px;font-family:var(--num);font-size:30px;color:var(--signal);transition:transform .15s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 26px;color:var(--ink-2);max-width:40em}
+@media (max-width:860px){.faq .wrap{grid-template-columns:1fr}}
+
+/* join */
+.join .wrap{display:grid;grid-template-columns:5fr 7fr;gap:clamp(40px,6vw,90px)}
+.join h2{font-size:clamp(36px,5vw,68px)}
+.join h2 em{font-style:normal;color:var(--signal)}
+.contact{margin-top:34px;font-size:15px;color:var(--on-night-2);border-top:1px solid rgba(243,237,226,.2);padding-top:22px}
+.contact a{color:var(--on-night)}
+form{background:var(--paper);color:var(--ink);padding:clamp(24px,4vw,48px)}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px 22px}
+.f{display:flex;flex-direction:column;gap:6px}
+.f.full{grid-column:1/-1}
+.f label{font-size:14px;font-weight:700}
+.f label .req{color:var(--signal-ink)}
+.f input,.f select,.f textarea{font:inherit;font-size:16px;padding:12px 14px;border:1.5px solid var(--ink-3);background:#fff;border-radius:0;color:var(--ink);min-height:48px}
+.f input:focus,.f select:focus,.f textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 3px rgba(226,70,27,.35)}
+.f input:user-invalid,.f select:user-invalid{border-color:var(--signal-ink)}
+.f .err{font-size:13px;color:var(--signal-ink);min-height:1em}
+.f .hint{font-size:13px;color:var(--ink-3)}
+.seg{display:flex;flex-wrap:wrap;gap:8px}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label{font-weight:500;border:1.5px solid var(--ink-3);padding:8px 16px;cursor:pointer;min-height:44px;display:flex;align-items:center}
+.seg input:checked+label{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.seg input:focus-visible+label{outline:3px solid var(--signal);outline-offset:2px}
+form .btn{margin-top:28px;width:100%;justify-content:center}
+.form-note{font-size:13px;color:var(--ink-3);margin-top:14px}
+.ok{display:none;border:2px solid var(--ink);padding:22px;margin-top:20px;background:var(--paper-2)}
+.ok.show{display:block}
+.ok strong{font-family:var(--serif);font-size:20px}
+@media (max-width:860px){.join .wrap{grid-template-columns:1fr}.fgrid{grid-template-columns:1fr}}
+
+/* runner strip + footer */
+.runners{padding:60px 0;border-top:1px solid var(--line)}
+.runners .wrap{display:flex;justify-content:space-between;gap:30px;align-items:center;flex-wrap:wrap}
+.runners table{border-collapse:collapse;font-size:15px}
+.runners th,.runners td{padding:8px 18px 8px 0;text-align:left;border-bottom:1px solid var(--line)}
+.runners td.p{font-family:var(--num);font-weight:800;font-size:20px;font-variant-numeric:tabular-nums}
+footer.site{background:var(--night);color:var(--on-night-2);padding:56px 0 40px;font-size:14px}
+footer.site .wrap{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+footer.site .brand{color:var(--on-night)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<a class="sr" href="#join">跳至報名表單</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">RUN FOR FUTURE <small>2027 第五屆</small></a>
+    <nav aria-label="主選單">
+      <ul>
+        <li><a href="#idea">理念</a></li>
+        <li><a href="#wall">100 家</a></li>
+        <li><a href="#why">為什麼參與</a></li>
+        <li><a href="#offer">企業得到什麼</a></li>
+        <li><a href="#podcast">Podcast</a></li>
+        <li><a href="#faq">常見問題</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary" href="#join">成為共同發起人</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="h-hero">
+  <div class="hero-img"><img src="assets/hero.jpg" width="1672" height="941" alt="清晨的高雄港灣，數百名跑者沿著水岸奔向日出"></div>
+  <div class="wrap">
+    <div>
+      <p class="hero-meta">2027.04.18 SUN ・ 高雄港灣文化廊帶（駁二 × 高流）</p>
+      <h1 id="h-hero"><span class="nw">一家公司可以做公益，</span><br><span class="nw"><em>100 家</em>公司</span><br><span class="nw">可以改變世界。</span></h1>
+      <p class="sub">第五屆順發 × 港都公益路跑——為了下一代，跑出新未來。我們正在邀請企業、社團與協會，成為被記錄的那 100 家共同發起人。</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="#join">認領一個發起人席次 <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost" href="#idea">三分鐘看懂這件事</a>
+      </div>
+    </div>
+    <aside class="hero-card" aria-label="共同發起人招募進度">
+      <div class="big"><span class="js-joined">40</span>/100</div>
+      <p class="cap">共同發起人已加入席次</p>
+      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-label="已加入 40 家"><i class="js-bar"></i></div>
+      <dl>
+        <dt>參與費用</dt><dd>NT$60,000 ／ 每單位</dd>
+        <dt>總領跑人</dt><dd>義大醫院 杜元坤院長</dd>
+        <dt>本屆目標</dt><dd>12,000 人・25–30 國家地區</dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div>
+  <span>聯合公益</span><span>●</span><span>運動幸福</span><span>●</span><span>RUN FOR FUTURE</span><span>●</span><span>100 COMPANIES</span><span>●</span><span>12,000 RUNNERS</span><span>●</span><span>2027.04.18 KAOHSIUNG</span><span>●</span>
+  <span>聯合公益</span><span>●</span><span>運動幸福</span><span>●</span><span>RUN FOR FUTURE</span><span>●</span><span>100 COMPANIES</span><span>●</span><span>12,000 RUNNERS</span><span>●</span><span>2027.04.18 KAOHSIUNG</span><span>●</span>
+</div></div>
+
+<!-- PROBLEM -->
+<section class="problem" id="idea" aria-labelledby="h-problem">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">The Problem</p>
+      <h2 id="h-problem">很多企業都在做 ESG、都在做公益。</h2>
+      <p class="lead">但多數的狀況是——好事做了，卻停在原地。這不只是一場路跑，而是一個讓企業一起做一件有意義事情的平台。</p>
+    </div>
+    <div class="reveal">
+      <ul class="strike">
+        <li><b>01</b><span>有做，<s>但沒有被看見</s></span></li>
+        <li><b>02</b><span>有做，<s>但沒有被放大</s></span></li>
+        <li><b>03</b><span>有做，<s>但沒有形成影響力</s></span></li>
+      </ul>
+      <p class="turn">不是各自做好事，<br>而是<mark>一起把好事做大</mark>。</p>
+    </div>
+  </div>
+</section>
+
+<!-- CORE -->
+<section class="core" aria-labelledby="h-core">
+  <div class="wrap">
+    <div class="core-head reveal">
+      <p class="eyebrow">Our core, in one line</p>
+      <h2 id="h-core"><span class="nw" style="color:inherit">聯合公益</span><span>・</span><span class="nw" style="color:inherit">運動幸福</span></h2>
+    </div>
+    <div class="pillars">
+      <article class="pillar reveal">
+        <p class="k">01 ／ 聯合公益</p>
+        <h3>從個別行動，<br>變成集體行動。</h3>
+        <p>不是一家公司做好事，而是把企業、個人、組織、資源、平台全部串在一起，讓公益的力量疊加，而不是分散。</p>
+      </article>
+      <article class="pillar reveal">
+        <p class="k">02 ／ 運動幸福</p>
+        <h3>不只是跑步，<br>是讓愛動起來。</h3>
+        <p>讓幸福被擴散。這裡的「運」，取自《禮記・禮運大同篇》——用好的機制，讓世界變好。</p>
+        <blockquote>大道之行也，天下為公。<cite>——《禮記・禮運》</cite></blockquote>
+      </article>
+    </div>
+    <p class="design-line reveal"><s>不是靠熱情</s>　而是靠設計——讓公益可以被運轉、被放大。</p>
+  </div>
+</section>
+
+<!-- THE 100 WALL -->
+<section class="night" id="wall" aria-labelledby="h-wall">
+  <div class="wrap">
+    <div class="wall-head reveal">
+      <div>
+        <p class="eyebrow">The 100 Wall</p>
+        <h2 id="h-wall">100 個席次，<br>一旦額滿，就是被記錄的<span class="nw"> 100 家。</span></h2>
+        <p class="lead">每一格代表一個共同發起單位。白色是已加入的夥伴，空白的那一格，可以是你的。</p>
+      </div>
+      <div>
+        <p class="count"><span class="js-joined">40</span><small>/100</small></p>
+        <p class="count-cap">還有 <b class="js-left">60</b> 個席次開放中</p>
+      </div>
+    </div>
+    <ol class="grid100" id="grid100" aria-label="100 個共同發起人席次"></ol>
+    <div class="legend"><span><i class="f"></i>已加入</span><span><i></i>開放認領（點選即可預約該編號）</span></div>
+    <div class="wall-foot">
+      <p>後續加入的企業，同樣是這 100 家中的重要成員。差別只在——你要不要在名單上。</p>
+      <a class="btn btn-primary" href="#join">認領席次 <span class="arr" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" aria-labelledby="h-why">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Why join</p>
+      <h2 id="h-why">企業最關心的問題：為什麼要參與？</h2>
+    </div>
+    <div class="why-grid">
+      <ol class="reasons">
+        <li class="reveal"><span class="n">01</span><div>
+          <h3>對內：員工從「無感」變「有感」</h3>
+          <p>只是贊助活動，員工通常無感；但有了機制就不一樣。同組的人會開始約跑、互相提醒、一起進步——凝聚力出來了，健康出來了，情感連結也出來了。</p>
+          <div class="chips"><span>凝聚力</span><span>健康</span><span>情感連結</span></div>
+        </div></li>
+        <li class="reveal"><span class="n">02</span><div>
+          <h3>對外：品牌被有意義地看見</h3>
+          <p>消費者選擇企業，早已不只看產品與價格，而是「你為這個世界做了什麼」。參與這個平台，你的品牌會被看見，而且是有意義的被看見。</p>
+        </div></li>
+        <li class="reveal"><span class="n">03</span><div>
+          <h3>長期價值：無法被複製的那一項</h3>
+          <p>產品可以被模仿，價格可以被競爭；但你為這個世界做了什麼，是無法被複製的。</p>
+        </div></li>
+      </ol>
+      <figure class="why-fig reveal">
+        <img src="assets/team.jpg" width="1800" height="1344" loading="lazy" alt="四位不同年齡的同事下班後在河濱一起慢跑，彼此打氣">
+        <figcaption>抽籤組隊之後，同事開始約跑——這是贊助換不到的東西。</figcaption>
+        <div class="mech">
+          <h4>企業內部可以這樣玩</h4>
+          <ol>
+            <li><b>01</b>公司內部 3–5 人一組，抽籤組隊</li>
+            <li><b>02</b>搭配激勵設計，讓小組自發練跑</li>
+            <li><b>03</b>跨企業較勁：比團隊數、完成率、成績、創意</li>
+          </ol>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- WHY NOW -->
+<section class="night now" aria-labelledby="h-now">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Why now</p>
+      <h2 id="h-now">AI 會讓企業之間的差距縮小。</h2>
+      <div class="vs">
+        <div class="row"><span>效率</span><span>越來越接近</span></div>
+        <div class="row"><span>產品</span><span>可以被模仿</span></div>
+        <div class="row"><span>價格</span><span>可以被競爭</span></div>
+        <div class="row win"><span>意義</span><span>被選擇的理由</span></div>
+      </div>
+    </div>
+    <blockquote class="reveal">Run for Future，<br>是企業進入<br><em>下一個競爭層次</em>的入口。</blockquote>
+  </div>
+</section>
+
+<!-- THIS EDITION -->
+<section aria-labelledby="h-ed">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">The 5th edition</p>
+      <h2 id="h-ed">2027，是轉折點。</h2>
+      <p class="lead">Run for Future 自 2019 年起每兩年一屆。2027 年 4 月 18 日的第五屆，將正式邁向國際性的公益與運動賽事——這是從台灣走向國際的第一步，也會是故事性最強、張力最大的一屆。</p>
+    </div>
+    <div class="timeline reveal" role="list">
+      <div role="listitem"><p class="y">2019</p><p class="t">第一屆</p></div>
+      <div role="listitem"><p class="y">2021</p><p class="t">第二屆</p></div>
+      <div role="listitem"><p class="y">2023</p><p class="t">第三屆</p></div>
+      <div role="listitem"><p class="y">2025</p><p class="t">第四屆</p></div>
+      <div role="listitem" class="cur"><p class="y">2027</p><p class="t">第五屆・走向國際</p></div>
+    </div>
+    <div class="goals reveal">
+      <div class="goal"><p class="v">100</p><p class="u">家企業參與</p><p>企業、社團、協會共同發起</p></div>
+      <div class="goal"><p class="v">12,000</p><p class="u">人參與</p><p>21K／10K／5K／健走／兒童健走</p></div>
+      <div class="goal"><p class="v">25–30</p><p class="u">個國家・地區</p><p>首度邁向國際賽事規模</p></div>
+    </div>
+    <div class="majors reveal">
+      <div>
+        <p class="lab">WORLD MARATHON MAJORS</p>
+        <p class="cities"><span>紐約</span><span>波士頓</span><span>倫敦</span><span>柏林</span><span>東京</span><span>芝加哥</span></p>
+        <p class="to">連接的是──城市。</p>
+      </div>
+      <div>
+        <p class="lab">RUN FOR FUTURE</p>
+        <p class="future">FUTURE</p>
+        <p class="to">連接的是──未來。</p>
+        <p style="color:var(--ink-2);margin-top:8px">是下一代，是社會永續，是我們希望一起創造的世界。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="offer" id="offer" aria-labelledby="h-offer">
+  <div class="wrap">
+    <div class="offer-top reveal">
+      <div>
+        <p class="eyebrow">What you get</p>
+        <h2 id="h-offer">企業會得到什麼？</h2>
+        <p class="lead">從投入與效益來看，這份參與帶來的影響力，很可能高於企業一年投入數十萬元以上的 ESG 作業。</p>
+      </div>
+      <div class="price"><p class="cur">NT$</p><p class="amt">60,000</p><p class="note">每一個共同發起單位</p></div>
+    </div>
+
+    <div class="gets">
+      <article class="get feature reveal">
+        <div>
+          <p class="gn">01 ／ 專屬報告</p>
+          <h3>一份專屬的《ESG 報告書・路跑篇》</h3>
+          <p>這份報告不是形式，而是完整記錄：從籌備開始、到活動執行、到最終結案，讓企業的公益可以<strong>被記錄、被驗證、被使用</strong>。</p>
+        </div>
+        <ul>
+          <li>報名軌跡</li><li>所有參與數據</li><li>所有成果數字</li><li>結餘運用與流向</li><li>實際受益的對象</li><li>籌備→執行→結案全紀錄</li>
+        </ul>
+      </article>
+      <article class="get reveal">
+        <p class="gn">02 ／ 多元曝光</p>
+        <h3>被媒體、社群、AI 推薦</h3>
+        <p>媒體、社群平台多元曝光，搭配「榮樹下」Podcast 專訪；甚至當 AI 在推薦企業時，也有理由推薦你。</p>
+      </article>
+      <article class="get reveal">
+        <p class="gn">03 ／ 集體力量</p>
+        <h3>你是 100 家裡的一份子</h3>
+        <p>不是單一企業孤軍做公益，而是與 100 家志同道合的企業、社團、協會並列，一起把好事做大。</p>
+      </article>
+      <article class="get reveal" style="grid-column:1/-1">
+        <p class="gn">04 ／ 領袖領跑</p>
+        <h3>每一家，都由最高領導者代表領跑</h3>
+        <p>董事長、總經理、理事長親自站上起跑線，與本屆總領跑人——義大醫院杜元坤院長——同場出發。這是員工、客戶與社會都看得見的承諾。</p>
+      </article>
+    </div>
+
+    <div class="not-sponsor reveal">
+      <p><s>這並非贊助</s>　而是一起做一件有意義的事情。</p>
+      <a class="btn btn-primary" href="#join">預約席次 <span class="arr" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- PODCAST -->
+<section class="night podcast" id="podcast" aria-labelledby="h-pod">
+  <div class="wrap">
+    <figure class="reveal">
+      <img src="assets/podcast.jpg" width="1800" height="1344" loading="lazy" alt="大榕樹下的戶外錄音現場，兩人面對面坐在麥克風前對談">
+      <figcaption class="ep">100 集・100 位領跑人<small>榮樹下 Podcast × Run for Future</small></figcaption>
+    </figure>
+    <div class="reveal">
+      <p class="eyebrow">Podcast series</p>
+      <h2 id="h-pod">在榮樹下，<br>說出你的企業為什麼而跑。</h2>
+      <p class="lead">我們將透過「榮樹下」Podcast，逐一專訪這 100 家共同發起單位，讓更多人聽見每一家企業的理念——品牌影響力被放大，也號召更多人一起站上起跑線。</p>
+      <ol class="flow">
+        <li><b>01</b><div><strong>加入成為共同發起人</strong><span>確認席次編號與領跑代表</span></div></li>
+        <li><b>02</b><div><strong>安排專訪</strong><span>由企業最高領導者分享品牌故事與公益理念</span></div></li>
+        <li><b>03</b><div><strong>節目上架與社群擴散</strong><span>透過 Podcast 平台與活動社群持續曝光</span></div></li>
+        <li><b>04</b><div><strong>帶動更多人報名路跑</strong><span>讓理念轉化為行動，2027.04.18 港都見</span></div></li>
+      </ol>
+      <div class="wave" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERS / QUOTE -->
+<section class="leaders" aria-labelledby="h-lead">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Who leads</p>
+      <h2 id="h-lead" class="sr">領跑人與發起理念</h2>
+      <div class="lead-card">
+        <p class="role">本屆總領跑人</p>
+        <p class="who">杜元坤 院長</p>
+        <p>義大醫院院長。將與 100 位企業領跑人一同出發，帶領 12,000 名跑者跑過高雄港灣。</p>
+      </div>
+      <div class="lead-card" style="margin-top:40px">
+        <p class="role">發起人</p>
+        <p class="who">吳錦昌 董事長</p>
+        <p>順發電腦董事長。長年倡導「用消費改變世界」，Run for Future 自 2019 年起走到第五屆。</p>
+      </div>
+    </div>
+    <blockquote class="quote reveal">
+      <p>一家公司可以做公益，100 家公司可以改變世界。我誠摯邀請你，一起成為這 100 家中的一份子，一起參與一個讓世界變得更好的過程。</p>
+      <footer>—— 順發電腦董事長 吳錦昌</footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq" aria-labelledby="h-faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="h-faq">常見問題</h2>
+    </div>
+    <div class="reveal">
+      <details><summary>哪些單位可以成為共同發起人？</summary><p>公司、社團法人、協會、基金會等法人單位皆可參與。每一個單位佔 100 個席次中的一席。</p></details>
+      <details><summary>NT$60,000 是贊助費嗎？</summary><p>不是。這並非贊助，而是一起做一件有意義的事情。費用涵蓋專屬《ESG 報告書・路跑篇》、多元曝光、Podcast 專訪與領跑資格，報告中也會完整揭露結餘的運用與流向。</p></details>
+      <details><summary>現在加入還來得及嗎？</summary><p>目前已有約 40 個共同發起單位。後續加入的企業仍然是這 100 家中的重要成員；但席次有限，100 家額滿即截止。</p></details>
+      <details><summary>一定要由董事長本人領跑嗎？</summary><p>每一家企業都由最高領導者代表領跑——董事長、總經理、理事長或執行長皆可，這正是讓承諾被看見的關鍵。</p></details>
+      <details><summary>員工可以一起報名嗎？</summary><p>當然可以，也非常鼓勵。建議內部以 3–5 人抽籤組隊，搭配激勵設計，並可與其他企業比團隊數、完成率、成績與創意。個人報名請至活動報名頁。</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section class="night join" id="join" aria-labelledby="h-join">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Join the 100</p>
+      <h2 id="h-join">成為被記錄的<br><em>那 100 家</em>。</h2>
+      <p class="lead">留下聯絡資料，我們會由專人與您聯繫，說明參與流程、席次確認與 Podcast 專訪安排。</p>
+      <div class="contact">
+        <p>活動執行｜樂活資訊服務股份有限公司</p>
+        <p>電話 <a href="tel:055510310">05-551-0310</a>（週一至週五 08:30–11:45／13:15–17:00）</p>
+        <p>Email <a href="mailto:lohasnet.tw@gmail.com">lohasnet.tw@gmail.com</a></p>
+      </div>
+    </div>
+    <form id="joinForm" novalidate class="reveal" aria-describedby="formNote">
+      <div class="fgrid">
+        <div class="f full"><label for="org">單位名稱 <span class="req">*</span></label><input id="org" name="org" required autocomplete="organization"><span class="err" id="org-e" aria-live="polite"></span></div>
+        <fieldset class="f full" style="border:0">
+          <legend style="font-size:14px;font-weight:700;margin-bottom:6px">單位類型 <span class="req">*</span></legend>
+          <div class="seg">
+            <input type="radio" name="type" id="t1" value="公司" required checked><label for="t1">公司</label>
+            <input type="radio" name="type" id="t2" value="社團法人"><label for="t2">社團法人</label>
+            <input type="radio" name="type" id="t3" value="協會"><label for="t3">協會</label>
+            <input type="radio" name="type" id="t4" value="基金會"><label for="t4">基金會</label>
+            <input type="radio" name="type" id="t5" value="其他"><label for="t5">其他</label>
+          </div>
+        </fieldset>
+        <div class="f"><label for="name">聯絡人姓名 <span class="req">*</span></label><input id="name" name="name" required autocomplete="name"><span class="err" id="name-e" aria-live="polite"></span></div>
+        <div class="f"><label for="title">職稱</label><input id="title" name="title" autocomplete="organization-title"><span class="err"></span></div>
+        <div class="f"><label for="tel">電話 <span class="req">*</span></label><input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel" pattern="[0-9+\-#() ]{8,}"><span class="err" id="tel-e" aria-live="polite"></span></div>
+        <div class="f"><label for="email">Email <span class="req">*</span></label><input id="email" name="email" type="email" required autocomplete="email"><span class="err" id="email-e" aria-live="polite"></span></div>
+        <div class="f"><label for="leader">領跑代表（最高領導者）</label><input id="leader" name="leader" placeholder="例：王大明 董事長"><span class="hint">可稍後再確認</span></div>
+        <div class="f"><label for="slot">想認領的席次編號</label><input id="slot" name="slot" inputmode="numeric" placeholder="例：088"><span class="hint">可在上方 100 格中直接點選</span></div>
+        <div class="f full"><label for="msg">想對我們說的話</label><textarea id="msg" name="msg" rows="3" placeholder="例如：希望安排 Podcast 專訪的時段、員工參與人數…"></textarea></div>
+      </div>
+      <button class="btn btn-primary" type="submit">送出，預約成為共同發起人 <span class="arr" aria-hidden="true">→</span></button>
+      <p class="form-note" id="formNote">送出後將開啟您的郵件程式，資料會寄送至活動執行單位；我們將於 3 個工作天內與您聯繫。</p>
+      <div class="ok" id="ok" role="status" tabindex="-1"><strong>謝謝！已為您準備好申請信。</strong><p>若郵件程式沒有自動開啟，請直接來電 05-551-0310，或寄信至 lohasnet.tw@gmail.com。</p></div>
+    </form>
+  </div>
+</section>
+
+<!-- RUNNERS -->
+<section class="runners" aria-labelledby="h-run">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">For runners</p>
+      <h2 id="h-run" style="font-size:clamp(26px,3vw,36px);margin:10px 0 8px">個人跑者，也一起來跑。</h2>
+      <p style="color:var(--ink-2)">2027.04.18（日）06:00 起跑・高雄港灣文化廊帶（駁二 × 高流）</p>
+      <a class="btn btn-ghost" style="margin-top:20px" href="https://lohasnet.tw/Sunfar2027/" target="_blank" rel="noopener">前往個人報名 <span class="arr" aria-hidden="true">↗</span></a>
+    </div>
+    <table>
+      <caption class="sr">個人報名組別與費用</caption>
+      <thead><tr><th scope="col">組別</th><th scope="col">名額</th><th scope="col">報名費</th></tr></thead>
+      <tbody>
+        <tr><td>21 公里</td><td>3,000 人</td><td class="p">$1,050</td></tr>
+        <tr><td>10 公里</td><td>4,000 人</td><td class="p">$850</td></tr>
+        <tr><td>5 公里</td><td>2,000 人</td><td class="p">$600</td></tr>
+        <tr><td>5 公里健走</td><td>2,000 人</td><td class="p">$600</td></tr>
+        <tr><td>5 公里兒童健走</td><td>1,000 人</td><td class="p">$350</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div><p class="brand">RUN FOR FUTURE</p><p>為了下一代，跑出新未來・2027 第五屆順發 × 港都公益路跑</p></div>
+    <p>主辦精神｜聯合公益・運動幸福<br>活動執行｜樂活資訊服務股份有限公司</p>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const JOINED = 40;            // ← 更新已加入席次數
+  const TOTAL = 100;
+  document.querySelectorAll('.js-joined').forEach(e => e.textContent = JOINED);
+  document.querySelectorAll('.js-left').forEach(e => e.textContent = TOTAL - JOINED);
+  const pb = document.querySelector('[role=progressbar]');
+  pb.setAttribute('aria-valuenow', JOINED); pb.setAttribute('aria-label', `已加入 ${JOINED} 家`);
+  requestAnimationFrame(() => setTimeout(() => document.querySelector('.js-bar').style.width = JOINED + '%', 300));
+
+  // 100 wall
+  const grid = document.getElementById('grid100');
+  const slotInput = document.getElementById('slot');
+  for (let i = 1; i <= TOTAL; i++) {
+    const n = String(i).padStart(3, '0');
+    const li = document.createElement('li');
+    if (i <= JOINED) {
+      li.innerHTML = `<span class="slot on" aria-label="第 ${n} 席，已加入">${n}</span>`;
+    } else {
+      const a = document.createElement('a');
+      a.className = 'slot'; a.href = '#join'; a.textContent = n;
+      a.setAttribute('aria-label', `預約第 ${n} 席`);
+      a.addEventListener('click', () => { slotInput.value = n; setTimeout(() => document.getElementById('org').focus({preventScroll:true}), 600); });
+      li.appendChild(a);
+    }
+    grid.appendChild(li);
+  }
+
+  // wave bars
+  const wave = document.querySelector('.wave');
+  for (let i = 0; i < 48; i++) { const b = document.createElement('i'); b.style.height = (8 + Math.abs(Math.sin(i * .7)) * 28) + 'px'; b.style.animationDelay = (i * 0.05) + 's'; wave.appendChild(b); }
+
+  // reveal
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold: .12});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // form
+  const form = document.getElementById('joinForm');
+  const msgs = { org: '請填寫單位名稱', name: '請填寫聯絡人姓名', tel: '請填寫可聯繫的電話號碼', email: '請填寫正確的 Email' };
+  const check = el => {
+    const err = document.getElementById(el.id + '-e'); if (!err) return true;
+    const bad = !el.checkValidity();
+    err.textContent = bad ? msgs[el.id] : '';
+    el.setAttribute('aria-invalid', bad); if (bad) el.setAttribute('aria-describedby', err.id);
+    return !bad;
+  };
+  ['org','name','tel','email'].forEach(id => {
+    const el = document.getElementById(id);
+    el.addEventListener('blur', () => check(el));
+    el.addEventListener('input', () => { if (el.getAttribute('aria-invalid') === 'true') check(el); });
+  });
+  form.addEventListener('submit', ev => {
+    ev.preventDefault();
+    const fields = ['org','name','tel','email'].map(id => document.getElementById(id));
+    const bad = fields.filter(el => !check(el));
+    if (bad.length) { bad[0].focus(); return; }
+    const d = new FormData(form);
+    const body = [
+      `單位名稱：${d.get('org')}`, `單位類型：${d.get('type')}`, `聯絡人：${d.get('name')} ${d.get('title') || ''}`,
+      `電話：${d.get('tel')}`, `Email：${d.get('email')}`, `領跑代表：${d.get('leader') || '待確認'}`,
+      `想認領席次：${d.get('slot') || '未指定'}`, `留言：${d.get('msg') || ''}`
+    ].join('\n');
+    location.href = `mailto:lohasnet.tw@gmail.com?subject=${encodeURIComponent('Run for Future 2027 共同發起人申請｜' + d.get('org'))}&body=${encodeURIComponent(body)}`;
+    const ok = document.getElementById('ok'); ok.classList.add('show'); ok.focus();
+  });
+})();
+</script>
+</body>
+</html>
