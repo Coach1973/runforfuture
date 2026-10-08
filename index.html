@@ -333,9 +333,9 @@ footer.site .brand{color:var(--on-night)}
       </div>
     </div>
     <aside class="hero-card" aria-label="共同發起人招募進度">
-      <div class="big"><span class="js-joined">40</span>/100</div>
+      <div class="big"><span class="js-joined">88</span>/100</div>
       <p class="cap">共同發起人已加入席次</p>
-      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-label="已加入 40 家"><i class="js-bar"></i></div>
+      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="88" aria-label="已加入 88 家"><i class="js-bar"></i></div>
       <dl>
         <dt>參與費用</dt><dd>NT$60,000 ／ 每單位</dd>
         <dt>總領跑人</dt><dd>義大醫院 杜元坤院長</dd>
@@ -403,8 +403,8 @@ footer.site .brand{color:var(--on-night)}
         <p class="lead">每一格代表一個共同發起單位。白色是已加入的夥伴，空白的那一格，可以是你的。</p>
       </div>
       <div>
-        <p class="count"><span class="js-joined">40</span><small>/100</small></p>
-        <p class="count-cap">還有 <b class="js-left">60</b> 個席次開放中</p>
+        <p class="count"><span class="js-joined">88</span><small>/100</small></p>
+        <p class="count-cap">還有 <b class="js-left">12</b> 個席次開放中</p>
       </div>
     </div>
     <ol class="grid100" id="grid100" aria-label="100 個共同發起人席次"></ol>
@@ -611,7 +611,7 @@ footer.site .brand{color:var(--on-night)}
     <div class="reveal">
       <details><summary>哪些單位可以成為共同發起人？</summary><p>公司、社團法人、協會、基金會等法人單位皆可參與。每一個單位佔 100 個席次中的一席。</p></details>
       <details><summary>NT$60,000 是贊助費嗎？</summary><p>不是。這並非贊助，而是一起做一件有意義的事情。費用涵蓋專屬《ESG 報告書・路跑篇》、多元曝光、Podcast 專訪與領跑資格，報告中也會完整揭露結餘的運用與流向。</p></details>
-      <details><summary>現在加入還來得及嗎？</summary><p>目前已有約 40 個共同發起單位。後續加入的企業仍然是這 100 家中的重要成員；但席次有限，100 家額滿即截止。</p></details>
+      <details><summary>現在加入還來得及嗎？</summary><p>目前已有約 88 個共同發起單位。後續加入的企業仍然是這 100 家中的重要成員；但席次有限，100 家額滿即截止。</p></details>
       <details><summary>一定要由董事長本人領跑嗎？</summary><p>每一家企業都由最高領導者代表領跑——董事長、總經理、理事長或執行長皆可，這正是讓承諾被看見的關鍵。</p></details>
       <details><summary>員工可以一起報名嗎？</summary><p>當然可以，也非常鼓勵。建議內部以 3–5 人抽籤組隊，搭配激勵設計，並可與其他企業比團隊數、完成率、成績與創意。個人報名請至活動報名頁。</p></details>
     </div>
@@ -653,8 +653,8 @@ footer.site .brand{color:var(--on-night)}
         <div class="f full"><label for="msg">想對我們說的話</label><textarea id="msg" name="msg" rows="3" placeholder="例如：希望安排 Podcast 專訪的時段、員工參與人數…"></textarea></div>
       </div>
       <button class="btn btn-primary" type="submit">送出，預約成為共同發起人 <span class="arr" aria-hidden="true">→</span></button>
-      <p class="form-note" id="formNote">送出後將開啟您的郵件程式，資料會寄送至活動執行單位；我們將於 3 個工作天內與您聯繫。</p>
-      <div class="ok" id="ok" role="status" tabindex="-1"><strong>謝謝！已為您準備好申請信。</strong><p>若郵件程式沒有自動開啟，請直接來電 05-551-0310，或寄信至 lohasnet.tw@gmail.com。</p></div>
+      <p class="form-note" id="formNote">送出後資料會直接送達活動執行單位；我們將於 3 個工作天內與您聯繫。</p>
+      <div class="ok" id="ok" role="status" tabindex="-1"><strong>謝謝！預約資料已送出。</strong><p>我們將於 3 個工作天內與您聯繫；也可直接來電 05-551-0310，或寄信至 lohasnet.tw@gmail.com。</p></div>
     </form>
   </div>
 </section>
@@ -693,7 +693,7 @@ footer.site .brand{color:var(--on-night)}
 
 <script>
 (() => {
-  const JOINED = 40;            // ← 更新已加入席次數
+  const JOINED = 88;            // ← 更新已加入席次數
   const TOTAL = 100;
   document.querySelectorAll('.js-joined').forEach(e => e.textContent = JOINED);
   document.querySelectorAll('.js-left').forEach(e => e.textContent = TOTAL - JOINED);
@@ -748,13 +748,11 @@ footer.site .brand{color:var(--on-night)}
     const bad = fields.filter(el => !check(el));
     if (bad.length) { bad[0].focus(); return; }
     const d = new FormData(form);
-    const body = [
-      `單位名稱：${d.get('org')}`, `單位類型：${d.get('type')}`, `聯絡人：${d.get('name')} ${d.get('title') || ''}`,
-      `電話：${d.get('tel')}`, `Email：${d.get('email')}`, `領跑代表：${d.get('leader') || '待確認'}`,
-      `想認領席次：${d.get('slot') || '未指定'}`, `留言：${d.get('msg') || ''}`
-    ].join('\n');
-    location.href = `mailto:lohasnet.tw@gmail.com?subject=${encodeURIComponent('Run for Future 2027 共同發起人申請｜' + d.get('org'))}&body=${encodeURIComponent(body)}`;
-    const ok = document.getElementById('ok'); ok.classList.add('show'); ok.focus();
+    const btn = form.querySelector('button[type=submit]'); const bt = btn.innerHTML; btn.disabled = true; btn.innerHTML = '處理中…';
+    const note = [`單位類型：${d.get('type')}`, d.get('title') ? `職稱：${d.get('title')}` : '', `領跑代表：${d.get('leader') || '待確認'}`, `想認領席次：${d.get('slot') || '未指定'}`, d.get('msg') ? `留言：${d.get('msg')}` : ''].filter(Boolean).join('｜');
+    fetch('https://event.bymyway.com/api/register', {method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({slug: 'runforfuture', name: d.get('name'), phone: d.get('tel'), company: d.get('org'), email: d.get('email'), note, source: 'event.bymyway.com/curated/runforfuture'})}).catch(() => {});
+    setTimeout(() => { btn.disabled = false; btn.innerHTML = bt; form.reset(); const ok = document.getElementById('ok'); ok.classList.add('show'); ok.focus(); }, 700);
   });
 })();
 </script>
