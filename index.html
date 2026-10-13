@@ -229,6 +229,9 @@ section{padding:clamp(80px,11vw,150px) 0;position:relative}
 .wave{display:flex;gap:3px;align-items:center;height:36px;margin-top:30px}
 .wave i{display:block;width:4px;background:var(--signal);border-radius:2px;animation:w 1.4s ease-in-out infinite}
 @keyframes w{50%{transform:scaleY(.3)}}
+.pod-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.podcast .btn-ghost{color:var(--on-night)}
+.podcast .btn-ghost:hover{background:var(--on-night);color:var(--ink);border-color:var(--on-night)}
 @media (max-width:860px){.podcast .wrap{grid-template-columns:1fr}}
 
 /* leaders */
@@ -572,6 +575,10 @@ footer.site .brand{color:var(--on-night)}
         <li><b>03</b><div><strong>節目上架與社群擴散</strong><span>透過 Podcast 平台與活動社群持續曝光</span></div></li>
         <li><b>04</b><div><strong>帶動更多人報名路跑</strong><span>讓理念轉化為行動，2027.04.18 港都見</span></div></li>
       </ol>
+      <div class="pod-links">
+        <a class="btn btn-primary" href="https://player.soundon.fm/p/01bac58b-741f-4cbc-8fa6-58dd45f24923" target="_blank" rel="noopener">收聽「榮樹下」Podcast <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost" href="https://lin.ee/OkaMlzx" target="_blank" rel="noopener">加入「榮樹下」官方 LINE@ <span class="arr" aria-hidden="true">↗</span></a>
+      </div>
       <div class="wave" aria-hidden="true"></div>
     </div>
   </div>
