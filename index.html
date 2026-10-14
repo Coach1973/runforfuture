@@ -53,13 +53,14 @@ section{padding:clamp(80px,11vw,150px) 0;position:relative}
 /* nav */
 .nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px}
-.brand{font-family:var(--num);font-weight:900;font-size:22px;letter-spacing:.04em;text-decoration:none;display:flex;align-items:baseline;gap:10px}
+.brand{font-family:var(--num);font-weight:900;font-size:22px;letter-spacing:.04em;text-decoration:none;display:flex;align-items:baseline;gap:10px;white-space:nowrap;flex:none}
 .brand small{font-family:var(--sans);font-weight:500;font-size:20px;letter-spacing:.08em;color:var(--ink-3)}
-.nav ul{display:flex;gap:28px;list-style:none;font-size:20px}
+.nav ul{display:flex;gap:clamp(14px,1.6vw,26px);list-style:none;font-size:20px;margin:0;padding:0;white-space:nowrap}
 .nav ul a{text-decoration:none;color:var(--ink-2)}
 .nav ul a:hover{color:var(--signal-ink)}
-.nav .btn{min-height:42px;padding:0 18px;font-size:20px}
-@media (max-width:960px){.nav ul{display:none}}
+.nav .btn{min-height:42px;padding:0 18px;font-size:20px;white-space:nowrap;flex:none}
+.nav .brand small{display:none}
+@media (max-width:1200px){.nav ul{display:none}}
 @media (max-width:560px){.brand small{display:none}.brand{font-size:20px;white-space:nowrap}.nav .btn{padding:0 12px;font-size:20px;white-space:nowrap}.hero .hero-card .big{font-size:88px}.hero .hero-img::after{background:linear-gradient(0deg,rgba(8,42,99,.96) 0%,rgba(8,42,99,.82) 55%,rgba(8,42,99,.35) 100%)}.hero .wrap{padding-top:70px}}
 
 /* hero */
